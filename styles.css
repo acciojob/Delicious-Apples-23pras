@@ -1,1 +1,137 @@
 /* your code here */
+body {
+  background-color: pink;
+  margin: 100px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  margin: 200px;
+  position: relative;
+}
+.product__photo {
+  overflow: visible;
+  position: absolute;
+  right: 60%;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.photo-container {
+  overflow: visible;
+  border-radius: 5px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.photo-main {
+  background-color: greenyellow;
+  position: relative;
+  overflow: visible;
+}
+
+.photo-album {
+  padding-left: 90px;
+}
+
+.photo-main img {
+  margin-left: -50px;
+  width: 300px;
+  position: relative;
+}
+
+.product__info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 80vh;
+  border-radius: 5px;
+}
+
+.photo-album {
+  background-color: white;
+}
+
+.photo-album ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.photo-album li {
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-album img {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px;
+}
+
+#para {
+  font-size: 60px;
+}
+
+.price {
+  color: red;
+  box-sizing: border-box;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.variant {
+  display: block;
+}
+
+#variant-h3 {
+  display: block;
+  padding-left: 100px;
+}
+
+#variant-ul {
+  display: flex;
+  margin-left: 100px;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.description {
+  padding-left: 130px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn button {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
